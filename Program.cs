@@ -22,7 +22,10 @@
             {
                 final = first + second;
             }
-
+            if (znak == '-')
+            {
+                final = first - second;
+            }
 
             Console.WriteLine(final);
 
